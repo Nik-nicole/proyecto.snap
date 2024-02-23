@@ -1,0 +1,29 @@
+.body{
+    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    
+}
+
+.menu{
+    margin: 10px;
+    padding: 10px;
+   text-align: center;
+    
+}
+.menu h3{
+    align-items: center;
+    display: inline-flex;
+    margin: 6px;
+   
+}
+.padre{
+    background-color: orange;
+}
+.col-xxl-3{
+    background-color: white;
+    display: inline-flex;
+    margin-inline-start: 30px;
+    margin: 5px;
+}
