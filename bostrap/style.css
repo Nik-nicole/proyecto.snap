@@ -1,29 +1,82 @@
-.body{
-    margin: 0;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    
+*{
+    background-color: black;
+}
+body{
+    background-color: black;
 }
 
+.conteiner{
+    background-color: black;
+}
+
+
 .menu{
-    margin: 10px;
     padding: 10px;
    text-align: center;
-    
+    background-color: black;
 }
+
 .menu h3{
+    display: inline-block;
+     margin: 10px;
+    cursor: pointer;
+    color: white;
+
+}
+.menu p{
+    color: aliceblue;
+}
+.col-xxl-3 img{
     align-items: center;
-    display: inline-flex;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
     margin: 6px;
-   
 }
 .padre{
-    background-color: orange;
+    margin: 4px;
+    background-color: rgb(0, 0, 0);
+}
+.col-xxl-3 p{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: auto;
+    height: 70px;
+    border-radius: 10px;
+    margin:2px;
+    text-align: center;
+    display: list-item;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.boton{
+    background-color: rgb(37, 194, 58);
+    text-align: center;
+    display: list-item;
+    margin-inline-start: 105px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    margin-top: 4px;
+    
 }
 .col-xxl-3{
-    background-color: white;
     display: inline-flex;
     margin-inline-start: 30px;
     margin: 5px;
+    flex-direction: column;
+}
+.amy{
+    width:300px;
+    height: auto;
+}
+.nirvana{
+    width:300px;
+    height: auto;
+}
+.vallenato{
+    width:300px;
+    height: auto;
 }
